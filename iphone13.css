@@ -1,0 +1,165 @@
+        body {
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(253, 205, 143);
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .frame {
+            width: 390px;
+            height: 844px;
+            margin: 10px;
+            border: 6px solid #EEDDC9;
+            border-radius: 40px;
+            background-color: black;
+            position: relative;
+        }
+
+        .frame2 {
+            width: 370px;
+            height: 824px;
+            margin: 10px;
+            border-radius: 40px;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .frame2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .front-camera {
+            width: 140px;
+            height: 30px;
+            background-color: black;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            position: absolute;
+            top: 0;
+            left: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .fr-camera {
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            background-color: lightgrey;
+        }
+
+        .fr-sensor {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+        .back-frame {
+            width: 390px;
+            height: 844px;
+            margin: 10px;
+            border: 6px solid #C0AA86;
+            border-radius: 40px;
+            background-color: #EEDDC9;
+            position: relative;
+
+        }
+
+        .back-frame img {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            top: 370px;
+            left: 120px;
+        }
+
+        .back-cameras {
+            width: 200px;
+            height: 180px;
+            margin: 10px;
+            background-color: antiquewhite;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px #888888;
+
+        }
+
+        .camera {
+            width: 70px;
+            height: 70px;
+            border: 4px solid #EEDDC9;
+            border-radius: 50%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px #888888;
+        }
+
+        .left-cameras {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            height: 100%;
+            width: 50%;
+            margin: 0;
+
+        }
+
+        .right-camera {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            width: 50%;
+            gap: 13px;
+            margin: 0;
+        }
+
+        .flash {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #f8e0ca;
+
+        }
+
+        .lens {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #221f2c67;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .crystal {
+            width: 50%;
+            height: 50%;
+            background-color: rgb(58, 57, 57);
+            border-radius: 50%;
+        }
+
+        .fl {
+            background-color: #433E40;
+        }
